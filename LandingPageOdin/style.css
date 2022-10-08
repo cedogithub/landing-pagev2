@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    padding: 1em;
+    margin-bottom: 3.5em;
+    justify-content: space-around;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;  
+    gap: 2em;  
+    
+}
+.main{
+display: flex;
+background-color: #1F2937;
+padding-bottom: 5em;
+flex-direction: column;
+color: white;
+}
+.heros{
+    background-color: #1F2937;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.left-hero{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    gap: 0.5em;
+    margin: 0em;
+    }
+.left-hero h1{
+    font-size: 48px;
+    margin-right: 2em;    }
+.left-hero button{
+    text-align: center;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    padding: 0.5em 3em;
+    border-radius: 0.5em;
+    align-self: flex-start
+    }
+
+.img-place{
+    background-color: grey;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =================================================================*/
+
+.info-section{
+    margin: 2em 0;
+    text-align: center;
+}
+
+.info-boxes{
+    padding: 2em;
+    display: flex;
+    gap: 2.5em;
+    justify-content: center;
+}
+.info-boxes >div {
+
+}
+
+.info-boxes img {
+    height: 200px;
+    border-radius: 1em;
+    width: 200px;
+    border: 3px solid #3882f6;
+}
+
+/* =================================================================*/
+
+.quote-container{
+    background-color: lightgrey;
+    padding: 6em
+}
+
+.quote{
+display: flex;
+font-style:italic;
+font-size: 24px;
+margin: 0 6em;
+justify-content: center;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    margin: 0 10em;
+    font-size: 800;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* =================================================================*/
+
+.sign-cont{
+    background-color: #3882f6;
+    padding: 4em 0;
+    border-radius: 0.6em;
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 7em;
+}
+.sign-cont button{
+    text-align: center;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 3em;
+    border-radius: 0.5em;
+}
+.texte{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+
+.texte p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
